@@ -1,0 +1,71 @@
+:root {
+  --icon-background: #6d6a75;
+}
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+}
+p,
+a {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  color: #de9e36;
+}
+.rounded-container {
+  width: 110px;
+  height: 100px;
+  background: url(./images/noun_Burger_1294185.svg);
+  background-repeat: no-repeat;
+  background-size: 70px;
+  background-position: center;
+  background-color: var(--icon-background);
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+  z-index: 1;
+}
+@media (min-width: 768px) {
+  .rounded-container {
+    left: 270px;
+  }
+}
+.card {
+  max-width: 540px;
+  border: 1px solid #37323e;
+}
+.card-footer {
+  background-color: white;
+}
+.icon {
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-spicy {
+  background: url(./images/pepper-hot-solid.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-cow {
+  background: url(./images/noun_grass\ fed\ cow_2748456.svg);
+}
+
+.btn-primary {
+  background-color: #37323e;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: white;
+  border: 1px solid #37323e;
+  color: #37323e;
+}
